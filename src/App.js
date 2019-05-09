@@ -1,27 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
-import CarouselPrincipal from './components/CarouselPrincipal'
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Pdp from './pages/Pdp';
+import Principal from './pages/Principal';
+import Ssm from './pages/Ssm';
+import Header from './components/Header';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <CarouselPrincipal />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (    
+    <Router>
+      <Header />
+      <Route path="/" exact component={Principal} />
+      <Route path="/Pdp/" component={Pdp} />
+      <Route path="/Ssm/" component={Ssm} />
+    </Router>
   );
 }
 

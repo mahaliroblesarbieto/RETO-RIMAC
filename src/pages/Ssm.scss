@@ -1,9 +1,54 @@
-
-img{
-    max-height: 500px;
-    max-width: 100%;
-    display: inline;
+.div-inicio{
+    padding: 80px;
 }
-section{
+.img{
+    width:400px;
+}
+.h8{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #494f66;
+}
+h1{
+    line-height: 68px;
+    letter-spacing: -0.6px;   
+}
+.class-span{
+    font-size: 56px;
+    font-weight: 300;
+    color: #494f66;
+}
+span{
+    font-size: 56px;
+    color:#ef3340;
+    font-weight: 400;
+}
+p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #494f66;
+    font-weight: 100;
+}
+.btn-ro{
+    padding: 18px 32px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 0;
+    transition: transform 0.3s;
+    margin: 15px;
     display: inline;
+    box-sizing: unset;
+}
+.btn-planes{
+    color: #fff;
+    background-color: #ef3340;
+}
+.btn-seguro{
+    color: #ef3340;
+    background-color: #ffffff;
+    border-color: #ef3340;
 }

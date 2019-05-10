@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Pdp.scss';
+import {Link} from 'react-router-dom';
 
 const PrincipalesCoberturas = () => {
 	return(
@@ -51,7 +52,7 @@ const Comolocompro = () => {
 				</div>
 				<div className="col-2"></div>
 			</div>
-			<button className="btn-ro btn-como">COMPRALO AQUÍ</button>
+			<Link to='/Compra/'><button className="btn-ro btn-como">COMPRALO AQUÍ</button></Link>
 		</div>
 	);
 };

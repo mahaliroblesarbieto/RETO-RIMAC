@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "547c661b8f1984ded8cffd60f2b22ce6",
+    "revision": "9d11dc3fe12ca36ff77b833682484bf3",
     "url": "/RETO-RIMAC/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RETO-RIMAC/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "71e4126958cd7a87f654",
+    "revision": "d6195bda32b884e7232d",
     "url": "/RETO-RIMAC/static/css/main.e8d62151.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RETO-RIMAC/static/js/2.01f5c3be.chunk.js"
   },
   {
-    "revision": "71e4126958cd7a87f654",
-    "url": "/RETO-RIMAC/static/js/main.d8fda555.chunk.js"
+    "revision": "d6195bda32b884e7232d",
+    "url": "/RETO-RIMAC/static/js/main.dbb7b2de.chunk.js"
   },
   {
     "revision": "d5ff11e730f380785006",

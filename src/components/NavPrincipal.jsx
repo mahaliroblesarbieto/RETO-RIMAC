@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './styles/Navprincipal.scss';
 
-export default function NavPrincipal() {
-  return (
+const NavPrincipal = () => { 
+  return(
     <nav className="navbar navbar-expand-lg nav-color width">
-      <img src="https://www.rimac.com.pe/corredores/bitportal/Cms_Data/Sites/Corredores/Files/images/logo-contenedor-150x55.png" alt="logo-rimac"/>
+      <Link to="/"><img src="https://www.rimac.com.pe/corredores/bitportal/Cms_Data/Sites/Corredores/Files/images/logo-contenedor-150x55.png" alt="logo-rimac" /></Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
       </button>
@@ -13,7 +14,8 @@ export default function NavPrincipal() {
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
             <button class="button-nav">
-              Nuestros Seguros <i class="fas fa-caret-down"></i>
+              <Link to='/Ssm/'>Nuestros Seguros </Link>
+              <i class="fas fa-caret-down"></i>
             </button>
           </li>
           <li class="nav-item active">
@@ -26,4 +28,5 @@ export default function NavPrincipal() {
       </div>
     </nav>
   );
-}
+};
+export default NavPrincipal;

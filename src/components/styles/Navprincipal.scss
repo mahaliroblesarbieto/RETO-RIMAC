@@ -1,45 +1,54 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 .width{
     width:100%
 }
-
-.nav-color{
-    background-color: #ef3340;
-    font-family: "Montserrat", sans-serif;
+.seguros{
+    width: 1000px;
+    height: 150px;
 }
-
-
-.nav-color .navbar-toggler{
-    color: white
-}
-
-*{
-    text-decoration: none
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.a-nav{
-    color:white
-}
-
-.margin{
-    margin-left: 4%;
-    margin-top: 1.5%
-}
-
-p{
-    font-family: 'Roboto', sans-serif;
-}
-
-.button-nav{
-    font-family: 'Roboto', sans-serif;
+.main-nav{
+    font-family: 'Lato', sans-serif;;
     background-color: #ef3340;
     color:white;
-    border: none;
-    padding-top: 5.7%
+}
+.btn-nav{
+    border: px;
+    border-color: white;
+    background-color: #ef3340;
+    font-size: 12px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px,
+}
+.img-busqueda{
+    margin-right: 15px;
+}
+.img-seguros{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+.row-seguros{
+    text-align: center;
+    background-color: #ffffff;
 
+}
+.description{
+    height: 300px;
+}
+.types{
+    text-align: center
+}
+.img-typeHogar{
+    margin-top: 50px;
+}
+.img-seguro{
+    height: 200px;
+}
+.text-seguro{
+    padding: 20px;
+}
+.text-resaltado{
+    font-size: 30px;
 }

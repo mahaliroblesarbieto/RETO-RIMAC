@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './styles/Informacion.scss';
+
 const info = [
 	{ img:'https://user-images.githubusercontent.com/45070947/57494746-577a4a00-7290-11e9-9e36-05937c35dc39.png',
 		text1: 'Te asistimos las 24 horas, solo llámanos',
@@ -18,7 +20,7 @@ const info = [
 		text1: 'Te ayudamos con la instalación y limpieza de cortinas, alfombras y muebles',
 		text2: 'Además, lavado de colchones, muebles y alfombras',
 		text3: 'Perforación de muros para cuadros y espejos',
-		text4: 'Y referencias y coordinación de técnicos en general',
+		text4: 'Referencias y coordinación de técnicos en general',
 		text5: 'Ver más..'
 	},
 ];
@@ -26,23 +28,23 @@ const info = [
 const Informacion = () => {
   const [text, setText] = useState(info[0]);
 	return (
-		<div>
+		<div className="informacion">
 			<div className="row">
-				<button className="col-4" onClick={() => setText(info[0])}><p>¿Qué cubre?</p></button>
-				<button className="col-4" onClick={() => setText(info[1])}><p>¿Qué no cubre?</p></button>
-				<button className="col-4" onClick={() => setText(info[2])}><p>Mis Beneficios</p></button>
+				<button className="col-4 btn-opciones-informacion" onClick={() => setText(info[0])}><p className="p-btn">¿Qué cubre?</p></button>
+				<button className="col-4 btn-opciones-informacion btn-center" onClick={() => setText(info[1])}><p className="p-btn">¿Qué no cubre?</p></button>
+				<button className="col-4 btn-opciones-informacion" onClick={() => setText(info[2])}><p className="p-btn">Mis Beneficios</p></button>
 			</div>
 			<div className="row">
-				<div className="col">
-					<img src={text.img} alt='img' className="col-6"/>
+				<div className="col-5">
+					<img src={text.img} alt='img' className="rota-horizontal"/>
 				</div>
-				<div className="col">
+				<div className="col-7 detalle-informacion">
 					<ul>
-						<li>{text.text1}</li>
-						<li>{text.text2}</li>
-						<li>{text.text3}</li>
-						<li>{text.text4}</li>
-						<li>{text.text5}</li>
+						<li><i class="fas fa-check"></i> <span className="li-info">{text.text1}</span></li>
+						<li><i class="fas fa-check"></i> <span className="li-info">{text.text2}</span></li>
+						<li><i class="fas fa-check"></i> <span className="li-info">{text.text3}</span></li>
+						<li><i class="fas fa-check"></i> <span className="li-info">{text.text4}</span></li>
+						<li><i class="fas fa-check"></i> <span className="li-info">{text.text5}</span></li>
 					</ul>
 				</div>
 			</div>

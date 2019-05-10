@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/Ssm.scss';
 import Informacion from '../components/Informacion';
 import Planes from '../components/Planes';
+import PreguntasFrecuentes from '../components/PreguntasFrecuentes';
 
 const Ssm = () => {
 	return (
@@ -31,6 +32,7 @@ const Ssm = () => {
 			</div>
 			<Informacion />
 			<Planes />
+			<PreguntasFrecuentes/>
 		</div>
 	);
 };

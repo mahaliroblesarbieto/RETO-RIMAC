@@ -63,7 +63,7 @@ const Planes = () => {
         </div>
         <hr></hr>
         <div class="row center">
-          <button class="button-plan width-plan">COMPRAR</button>
+          <button class="button-plan width-plan">SOLICITAR</button>
         </div>
       </div>
       <div class="col-3 border-plan padding-plan">
@@ -94,7 +94,7 @@ const Planes = () => {
         </div>
         <hr></hr>
         <div class="row center">
-          <button class="button-plan width-plan">COMPRAR</button>
+          <button class="button-plan width-plan">SOLICITAR</button>
         </div>
       </div>
     </div>        

@@ -43,33 +43,33 @@ export const NavPrincipal = () => {
               <Row className="row-seguros">
                 <Col className="col-seguros">
                   <img className="img-seguros"src="https://user-images.githubusercontent.com/45071050/57502457-61f90b80-72b1-11e9-8725-3c36f3c27be7.png" alt="Salud"/>
-                  <p>Salud</p>
+                  <p className="p-nav-header">Salud</p>
                 </Col>
                 <Col>
                   <img className="img-seguros"src="https://user-images.githubusercontent.com/45071050/57502449-61607500-72b1-11e9-8b51-55200145bcaa.png" alt="Vehicular"/>
-                  <p>Vehicular</p>
+                  <p className="p-nav-header">Vehicular</p>
                 </Col>
                 <Col>
                   <img className="img-seguros"src="https://user-images.githubusercontent.com/45071050/57502450-61607500-72b1-11e9-8292-8c34e944dc0b.png" alt="Vida"/>
-                  <p>Vida</p>
+                  <p className="p-nav-header">Vida</p>
                 </Col>
                 <Col>
                   <div onClick={()=>{setHogar(!hogar)}}>
                     <img className="img-seguros"src="https://user-images.githubusercontent.com/45071050/57502451-61607500-72b1-11e9-8762-fffccda5fb8d.png" alt="Hogar"/>
-                    <p>Hogar</p>
+                    <p className="p-nav-header">Hogar</p>
                   </div>
                 </Col>
                 <Col>
                   <img className="img-seguros"src="https://user-images.githubusercontent.com/45071050/57502453-61f90b80-72b1-11e9-8655-c228c2b1dd7b.png" alt="Viajes"/>
-                  <p>Viajes</p>
+                  <p className="p-nav-header">Viajes</p>
                 </Col>
                 <Col>
                   <img className="img-seguros"src="https://user-images.githubusercontent.com/45071050/57502454-61f90b80-72b1-11e9-9529-2594534ad2e1.png" alt="Empresa"/>
-                  <p>Empresa</p>
+                  <p className="p-nav-header">Empresa</p>
                 </Col>
                 <Col>
                   <img className="img-seguros"src="https://user-images.githubusercontent.com/45071050/57502455-61f90b80-72b1-11e9-8f05-08dd3672b581.png" alt="Trabajadores"/>
-                  <p>Trabajadores</p>
+                  <p className="p-nav-header">Trabajadores</p>
                 </Col>
               </Row>
             </NavDropdown.Header>

@@ -5,6 +5,7 @@ const PrincipalesCoberturas = () => {
 	return(
 		<div className="princip-cobert">
 			<h3 className="h3-cobert">Tus principales <span className="span-cobert">coberturas</span></h3>
+			<a href="/Pdp/">Ver más detalles de las coberturas</a>
 			<div className="row">
 				<div className="col-2"></div>
 				<div className="col-8 row">
@@ -17,13 +18,40 @@ const PrincipalesCoberturas = () => {
 						<p className="p-cobert">Robo o Intento de Robo</p>
 					</div>
 					<div className="col-4">
-						<img src="https://www.rimac.com.pe/productoweb/flujodomi2/images/robo-amarillo.png" alt=""/>
+						<img class="icon-asistencia"src="https://www.rimac.com.pe/productoweb/flujodomi2/images/solo-contenido.png" alt=""/>
 						<p className="p-cobert">Asistencias</p>
 					</div>
 				</div>
 				<div className="col-2"></div>
 			</div>
-			<button className="btn-ro btn-princ">MIRA LAS COBERTURAS AQUI</button>
+			<div class="row marginleft">
+			<div class="col-6 background-white padding-top border">
+			  <div class="row center-p">
+			    <h2 class="center-p">Tu seguro cubrirá</h2>
+			  </div>
+			  <div class="row">
+			    <h8 class="center-p-second"><span class="size-second bolder">Hasta</span></h8>
+			  </div>
+			  <div class="row">
+			    <h2 class="center-p-third"><span class="bolder">S/ 10.000</span></h2>
+			  </div>
+			</div>
+			<div class="col-4 background-yellow padding-top border-rigth">
+			  <div class="row size-second">
+			    <h8 class="size-second center-p">Prima comercial mensual</h8>
+			  </div>
+			  <div class="row size-second">
+			    <h8 class="size-second center-p">Plan desde:</h8>
+			  </div>
+			  <div class="row">
+			    <h2 class="center-p-third">S/ 14.90 mensual</h2>
+			  </div>
+			  <div class="row size-second">
+			    <h8 class="size-second center-p">al contado S/178.81 anual</h8>
+			  </div>
+			</div>
+			</div>
+			<button className="btn-ro btn-princ">COMPRAR</button>
 		</div>
 	)
 };
@@ -51,7 +79,7 @@ const Comolocompro = () => {
 				</div>
 				<div className="col-2"></div>
 			</div>
-			<button className="btn-ro btn-como">COMPRALO AQUÍ</button>
+			<button className="btn-ro btn-princ">COMPRALO AQUÍ</button>
 		</div>
 	);
 };

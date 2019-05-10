@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Pdp from './pages/Pdp';
+import { Pdp } from './pages/Pdp';
 import Principal from './pages/Principal';
 import Ssm from './pages/Ssm';
 import { NavPrincipal } from './components/NavPrincipal'

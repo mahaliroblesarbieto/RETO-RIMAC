@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './styles/Planes.scss';
 const Planes = () => { 
   return (
@@ -34,7 +35,7 @@ const Planes = () => {
           </div>
           <hr></hr>
           <div class="row center">
-            <button class="button-plan width-plan">COMPRAR</button>
+            <button class="button-plan width-plan"><Link to="/Pdp/">COMPRAR</Link></button>
           </div>
         </div>
         <div class="col-3 border-plan padding-plan margin-rigth">

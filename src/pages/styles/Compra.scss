@@ -1,0 +1,51 @@
+.compra-main{
+    margin: 30px;
+    text-align: center;
+}
+.text-compra{
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: normal;
+    color: #4A4A4A;
+}
+.menu-compra{
+    background: linear-gradient(156.53deg, #53D8C5 0%, #3FBFAD 100%);
+    height: 65px;
+    display: flex;
+    border-radius: 18px;    
+    box-shadow: -10px 23px 21px 0 rgba(59, 69, 74, 0.12);
+}
+.option-compra{
+    width: 50%;
+    height: 65px;
+    color: #FFFFFF;
+    line-height: 65px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.text-form{
+    text-align: center;
+    color:#ef3340;
+    margin:20px;
+}
+.btn-comprar{
+    display: inline-block;
+    border: none;
+    background-color: #E62627;
+    color: #ffffff;
+    height: 51px;
+    width: 155px;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px 0;
+    display: block;
+    font-weight: normal !important;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    overflow: visible;
+}

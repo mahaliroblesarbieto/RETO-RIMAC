@@ -3,6 +3,8 @@ import './styles/Ssm.scss';
 import Informacion from '../components/Informacion';
 import Usarseguro from '../components/Usarseguro';
 import Otrosproductos from '../components/Otrosproductos';
+import Planes from '../components/Planes';
+import PreguntasFrecuentes from '../components/PreguntasFrecuentes';
 
 const Ssm = () => {
 	return (
@@ -31,7 +33,9 @@ const Ssm = () => {
 				</div>
 			</div>
 			<Informacion />
+			<Planes />
 			<Usarseguro />
+			<PreguntasFrecuentes/>
 			<Otrosproductos />
 		</div>
 	);

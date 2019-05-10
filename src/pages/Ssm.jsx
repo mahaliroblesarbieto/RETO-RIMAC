@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles/Ssm.scss';
 import Informacion from '../components/Informacion';
+import Usarseguro from '../components/Usarseguro';
+import Otrosproductos from '../components/Otrosproductos';
 
 const Ssm = () => {
 	return (
@@ -15,7 +17,7 @@ const Ssm = () => {
 					<p className="p-ssm">¡Toc, toc! Estés o no en casa, tu tranquilidad está asegurada, y al mejor precio</p>
 					<div className="row">
 						<button className="btn-ro btn-planes">Conoce nuestros planes desde S/. 14.90</button>
-						<button className="btn-ro btn-seguro">USAR MI SEGURO</button>
+						<a href="#usar-seguro"><button className="btn-ro btn-seguro">USAR MI SEGURO</button></a>
 					</div>
 				</div>
 			</div>
@@ -29,6 +31,8 @@ const Ssm = () => {
 				</div>
 			</div>
 			<Informacion />
+			<Usarseguro />
+			<Otrosproductos />
 		</div>
 	);
 };

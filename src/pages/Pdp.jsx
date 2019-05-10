@@ -30,7 +30,7 @@ const PrincipalesCoberturas = () => {
 
 const Comolocompro = () => {
 	return (
-		<div className="">
+		<div className="comolo-compro">
 			<h3 className="h3-cobert"><span className="span-cobert">¿Cómo lo compro?</span></h3>
 			<p>TU COMPRA 100% SEGURA</p>
 			<div className="row">
@@ -56,6 +56,20 @@ const Comolocompro = () => {
 	);
 };
 
+const Quierescomprar = () => { 
+  return (
+    <div class="row div-quieres">
+			<div class="col-4">
+				<img class="img-quiere" src="https://user-images.githubusercontent.com/45070947/57518748-60ded300-72df-11e9-8d0d-cf7d288a2cb0.png" alt="logo-rimac" />
+			</div>
+			<div class="col-8">
+				<h3 className="h3-cobert">¿Quieres <span className="span-cobert">comprar este seguro?</span></h3>
+				<p class="p-quieres">Nuestros expertos tienen todas las respuestas que estas buscando. Aquí te ayudaremos para que completes tu compra.</p>
+				<button className="btn-ro btn-princ">CONTÁCTATE CON UN ASESOR</button>
+			</div> 
+		</div>
+  );
+};
 export const Pdp = () => {
 	return (
 		<div className="pdp">
@@ -63,6 +77,7 @@ export const Pdp = () => {
 			<p className="p-pdp">Tus bienes asegurados</p>
 			<PrincipalesCoberturas />
 			<Comolocompro />
+			<Quierescomprar />
 		</div>
 	);
 };

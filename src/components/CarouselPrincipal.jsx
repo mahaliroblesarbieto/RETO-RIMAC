@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/carousel.scss';
 import Container from 'react-bootstrap/Container';

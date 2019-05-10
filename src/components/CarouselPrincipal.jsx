@@ -26,9 +26,9 @@ const CarouselPrincipal = () => (
 			<Container className="carousel-page-one">
 				<Row>
 					<Col sm={5}>
-						<h1>Te llevamos a disfrutar la final de la copa Brasil</h1>
-						<p>Gana un paquete doble sin sorteos y más.</p>
-						<button className="carousel-btn">CONOCE MÁS</button>
+						<h1>Protege tu hogar desde <span className="precio-text">S/ 14.90 </span>al mes</h1>
+						<p>¡Toc, toc! Estés o no en casa, tu tranquilidad está asegurada, y al mejor precio</p>
+						<button className="carousel-btn">SOLICÍTALO AQUI</button>
 					</Col>
 					<Col sm={6}>
 						<img className="d-block w-100 carousel-img" src="https://user-images.githubusercontent.com/45071050/57514100-4b64ab80-72d5-11e9-9a8a-252e574d77dc.png" alt=""/>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Ssm.scss';
+import './styles/Ssm.scss';
 import Informacion from '../components/Informacion';
 
 const Ssm = () => {

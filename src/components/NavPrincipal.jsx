@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-/* import { Link } from "react-router-dom"; */
+import { Link } from "react-router-dom";
 import './styles/Navprincipal.scss';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -14,11 +14,11 @@ return(
       <Row className="types">
         <Col>
           <img className="img-typeHogar" src="https://user-images.githubusercontent.com/45071050/57506717-434f4080-72c2-11e9-8d58-643ab57854d7.png" alt="Seguro"/>
-          <p> Seguro Hogar</p>
+          <Link to="/Ssm/"><p className="p-nav-principal">Seguro Hogar a tu medida</p></Link>
         </Col>
         <Col>
           <img className="img-typeHogar" src="https://user-images.githubusercontent.com/45071050/57506717-434f4080-72c2-11e9-8d58-643ab57854d7.png" alt="Seguro"/>
-          <p> Seguro Hogar a tu medida</p>
+          <p className="p-nav-principal"> Seguro Hogar</p>
         </Col>
         <Col>
           <img className="img-seguro" src="https://user-images.githubusercontent.com/45071050/57507090-5adaf900-72c3-11e9-89fd-c46988ea452c.png" alt="Seguro"/>

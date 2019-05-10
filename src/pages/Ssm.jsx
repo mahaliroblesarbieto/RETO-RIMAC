@@ -18,7 +18,7 @@ const Ssm = () => {
 					<h1 className="h1-princip"><span className = "class-span">Seguro </span><span>Hogar a tu Medida</span></h1>
 					<p className="p-ssm">¡Toc, toc! Estés o no en casa, tu tranquilidad está asegurada, y al mejor precio</p>
 					<div className="row">
-						<button className="btn-ro btn-planes">Conoce nuestros planes desde S/. 14.90</button>
+						<a href="#planes"><button className="btn-ro btn-planes">Conoce nuestros planes desde S/. 14.90</button></a>
 						<a href="#usar-seguro"><button className="btn-ro btn-seguro">USAR MI SEGURO</button></a>
 					</div>
 				</div>

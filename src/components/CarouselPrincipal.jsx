@@ -1,13 +1,13 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
-import './carousel.scss';
+import './styles/carousel.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const CarouselPrincipal = () => (
-	<Carousel className="">
+	<Carousel className="width">
 		<Carousel.Item className="carousel-item">
 			<Container className="carousel-page-one">
 				<Row>

@@ -32,8 +32,8 @@ export const NavPrincipal = () => {
   const [hogar, setHogar] = useState(false);
   return(
     <Navbar className="main-nav" bg="" variant="dark" expand="lg">
-      <Navbar.Brand href="/">
-      <img src="https://user-images.githubusercontent.com/45071050/57497527-ae3a5080-729d-11e9-9727-876c9a574c32.png" alt="Rimac" />
+      <Navbar.Brand>
+      <Link to="/"><img src="https://user-images.githubusercontent.com/45071050/57497527-ae3a5080-729d-11e9-9727-876c9a574c32.png" alt="Rimac" /></Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

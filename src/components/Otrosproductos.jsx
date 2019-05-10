@@ -3,7 +3,7 @@ import './styles/Otrosproductos.scss';
 
 const Otrosproductos = () => {
 	return (
-		<div className="otros-productos">
+		<div className="otros-productos margin-top">
 			<h1 className="h1-prod"><span className = "class-span">Más productos para </span><span>ti</span></h1>
 			<div className="row card-otros">
 				<div className="opciones-usar">

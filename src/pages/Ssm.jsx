@@ -5,6 +5,7 @@ import Usarseguro from '../components/Usarseguro';
 import Otrosproductos from '../components/Otrosproductos';
 import Planes from '../components/Planes';
 import PreguntasFrecuentes from '../components/PreguntasFrecuentes';
+import Recomendacion from '../components/Recomendacion';
 
 const Ssm = () => {
 	return (
@@ -36,7 +37,8 @@ const Ssm = () => {
 			<Planes />
 			<Usarseguro />
 			<PreguntasFrecuentes/>
-			<Otrosproductos />
+			<Recomendacion/>
+			<Otrosproductos/>
 		</div>
 	);
 };

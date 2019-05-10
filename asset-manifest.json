@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/RETO-RIMAC/static/css/main.9b99ecc2.chunk.css",
-    "main.js": "/RETO-RIMAC/static/js/main.7ff91fbc.chunk.js",
-    "main.js.map": "/RETO-RIMAC/static/js/main.7ff91fbc.chunk.js.map",
+    "main.css": "/RETO-RIMAC/static/css/main.189d90e8.chunk.css",
+    "main.js": "/RETO-RIMAC/static/js/main.0b63b8a0.chunk.js",
+    "main.js.map": "/RETO-RIMAC/static/js/main.0b63b8a0.chunk.js.map",
     "runtime~main.js": "/RETO-RIMAC/static/js/runtime~main.bbf0f5be.js",
     "runtime~main.js.map": "/RETO-RIMAC/static/js/runtime~main.bbf0f5be.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/RETO-RIMAC/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.8ece096d.chunk.js": "/RETO-RIMAC/static/js/2.8ece096d.chunk.js",
-    "static/js/2.8ece096d.chunk.js.map": "/RETO-RIMAC/static/js/2.8ece096d.chunk.js.map",
+    "static/js/2.2f488382.chunk.js": "/RETO-RIMAC/static/js/2.2f488382.chunk.js",
+    "static/js/2.2f488382.chunk.js.map": "/RETO-RIMAC/static/js/2.2f488382.chunk.js.map",
     "index.html": "/RETO-RIMAC/index.html",
-    "precache-manifest.4120a13189f56b17b5a303e543b8a2a3.js": "/RETO-RIMAC/precache-manifest.4120a13189f56b17b5a303e543b8a2a3.js",
+    "precache-manifest.eaad035e802d87a45e54892df8e9e0e8.js": "/RETO-RIMAC/precache-manifest.eaad035e802d87a45e54892df8e9e0e8.js",
     "service-worker.js": "/RETO-RIMAC/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/RETO-RIMAC/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.9b99ecc2.chunk.css.map": "/RETO-RIMAC/static/css/main.9b99ecc2.chunk.css.map"
+    "static/css/main.189d90e8.chunk.css.map": "/RETO-RIMAC/static/css/main.189d90e8.chunk.css.map"
   }
 }

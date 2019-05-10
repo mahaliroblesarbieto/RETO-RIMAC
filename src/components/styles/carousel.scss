@@ -10,8 +10,16 @@ p{
 .carousel-page-one{
   width:100%;
 }
-.carousel-item{
-  background-color: #ef3340;
+.carousel-item1{
+  width:100%;
+  background-image: url("https://user-images.githubusercontent.com/45071050/57516370-32122e00-72da-11e9-8629-f9f82b700644.png");
+  background-repeat: no-repeat;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+} 
+.carousel-item2{
+  width:100%;
+  background-image: url("https://user-images.githubusercontent.com/45071050/57513277-7b12b400-72d3-11e9-820a-52e2d8a10d92.png");
+  background-repeat: no-repeat;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .carousel-img{
@@ -26,4 +34,7 @@ p{
   font-family: Lato, serif;
   font-weight: bold;
   border:0px;
+}
+.precio-text{
+  color: #ffffff;
 }
